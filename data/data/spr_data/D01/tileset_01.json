@@ -1,0 +1,11 @@
+{
+    "name": "D01_tileset_01", 
+    "path": "tilesets/D01/tiles_01.png",
+    "split": 
+    {
+        "w":16,
+        "h":16,
+        "x_count": 16,
+        "y_count": 6
+    }
+}

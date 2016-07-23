@@ -1,0 +1,28 @@
+{
+    "name" : "house",
+    "components" : {
+        "spriterenderers" :
+        [
+            {
+                "name" : "house_sprite",
+                "sheet" : "entities_02",
+                "clip" : "house",
+                "offset" : {"x":0,"y":0},
+                "depth_offset" : 0
+            }
+        ],
+        "collidables" : [
+            {
+                "name" : "main_hitbox",
+                "immovable" : true,
+                "polygon" : [
+                    {"x": -56, "y": -12},
+                    {"x": 56, "y": -12},
+                    {"x": 56, "y": 52},
+                    {"x": -56, "y": 52}
+                ]
+            }
+        ]
+    }
+
+}

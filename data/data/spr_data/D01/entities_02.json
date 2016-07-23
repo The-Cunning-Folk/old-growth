@@ -1,0 +1,13 @@
+{
+    "name": "entities_02", 
+    "path": "entities/D01/environment/entities_02.png",
+    "sprites": [
+        { 
+            "name": "house",
+            "frames": [
+                {"l": 0, "t": 0, "w": 128, "h": 112}
+            ],
+            "offset_y" : 0
+        }
+    ]
+}
