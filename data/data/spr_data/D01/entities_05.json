@@ -1,0 +1,12 @@
+{
+    "name": "entities_05", 
+    "path": "entities/D01/environment/entities_05.png",
+    "sprites": [
+        { 
+            "name": "rock_1",
+            "frames": [
+                {"l": 0, "t": 0, "w": 32, "h": 32}
+            ]
+        }
+    ]
+}

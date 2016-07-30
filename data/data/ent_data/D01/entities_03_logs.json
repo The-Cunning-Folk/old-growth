@@ -1,14 +1,14 @@
 {
-    "name" : "house",
+    "name" : "logs",
     "components" : {
         "spriterenderers" :
         [
             {
-                "name" : "house_sprite",
-                "sheet" : "entities_02",
-                "clip" : "house",
+                "name" : "logs_sprite",
+                "sheet" : "entities_03",
+                "clip" : "logs",
                 "offset" : {"x":0,"y":0},
-                "depth_offset" : 0
+                "depth_offset" : -22
             }
         ],
         "collidables" : [
@@ -16,10 +16,10 @@
                 "name" : "main_hitbox",
                 "immovable" : true,
                 "polygon" : [
-                    {"x": -56, "y": -12},
-                    {"x": 56, "y": -12},
-                    {"x": 56, "y": 48},
-                    {"x": -56, "y": 48}
+                    {"x": -16, "y": -26},
+                    {"x": 16, "y": -26},
+                    {"x": 16, "y": 26},
+                    {"x": -16, "y": 26}
                 ]
             }
         ]

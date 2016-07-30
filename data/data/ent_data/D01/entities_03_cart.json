@@ -1,0 +1,27 @@
+{
+    "name" : "cart",
+    "components" : {
+        "spriterenderers" :
+        [
+            {
+                "name" : "sprite",
+                "sheet" : "entities_03",
+                "clip" : "cart",
+                "depth_offset" : -7
+            }
+        ],
+        "collidables" : [
+            {
+                "name" : "main_hitbox",
+                "immovable" : true,
+                "polygon" : [
+                    {"x": -24, "y": -9},
+                    {"x": 25, "y": -5},
+                    {"x": 25, "y": 10},
+                    {"x": -24, "y": 6}
+                ]
+            }
+        ]
+    }
+
+}
