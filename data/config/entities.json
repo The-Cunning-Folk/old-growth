@@ -4,6 +4,11 @@
         "D01/entities_01_big_tree.json",
         "D01/entities_01_med_tree.json",
         "D01/entities_02_house.json",
-        "D01/entities_03_butterfly.json"
+        "D01/entities_03_logs.json",
+        "D01/entities_03_cart.json",
+        "D01/entities_04_sunflower_1.json",
+        "D01/entities_04_sunflower_2.json",
+        "D01/entities_05_rock_1.json",
+        "D01/butterfly.json"
     ]
 }

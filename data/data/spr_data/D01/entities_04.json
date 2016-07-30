@@ -1,0 +1,18 @@
+{
+    "name": "entities_04", 
+    "path": "entities/D01/environment/entities_04.png",
+    "sprites": [
+        { 
+            "name": "sunflower_1",
+            "frames": [
+                {"l": 0, "t": 0, "w": 16, "h": 32}
+            ]
+        },
+        { 
+            "name": "sunflower_2",
+            "frames": [
+                {"l": 16, "t": 0, "w": 16, "h": 32}
+            ]
+        }
+    ]
+}

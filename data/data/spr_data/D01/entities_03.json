@@ -1,0 +1,48 @@
+{
+    "name": "entities_03", 
+    "path": "entities/D01/environment/entities_03.png",
+    "sprites": [
+        { 
+            "name": "logs",
+            "frames": [
+                {"l": 0, "t": 0, "w": 48, "h": 66}
+            ]
+        },
+        { 
+            "name": "cart",
+            "frames": [
+                {"l": 48, "t": 0, "w": 48, "h": 32}
+            ]
+        },
+        { 
+            "name": "fence_h_1",
+            "frames": [
+                {"l": 96, "t": 0, "w": 16, "h": 16}
+            ]
+        },
+        { 
+            "name": "fence_h_2",
+            "frames": [
+                {"l": 112, "t": 0, "w": 16, "h": 16}
+            ]
+        },
+        { 
+            "name": "fence_h_end_1",
+            "frames": [
+                {"l": 128, "t": 0, "w": 16, "h": 16}
+            ]
+        },
+        { 
+            "name": "fence_h_end_2",
+            "frames": [
+                {"l": 144, "t": 0, "w": 16, "h": 16}
+            ]
+        },
+        { 
+            "name": "fence_v_1",
+            "frames": [
+                {"l": 160, "t": 0, "w": 16, "h": 16}
+            ]
+        }
+    ]
+}

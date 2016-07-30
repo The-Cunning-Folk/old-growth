@@ -7,7 +7,8 @@
                 "name" : "butterfly_sprite",
                 "sheet" : "butterfly_sprite",
                 "clip" : "flap",
-                "paused" : false
+                "paused" : false,
+                "depth_offset" : 6
             }
         ],
         "collidables" : [

@@ -4,8 +4,13 @@
     "entities" : [
         {"x" : 12, "y" : -4, "type" : "big_tree"},
         {"x" : 1, "y" : -4, "type" : "house"},
-        {"x" : -5, "y" : 2, "type" : "butterfly"}
-
+        {"x" : -5, "y" : 2, "type" : "butterfly"},
+        {"x":-4, "y" : -3, "type":"logs"},
+        {"x":10, "y" : 6, "type":"cart"},
+        {"x":7, "y" : 6, "type":"sunflower_1"},
+        {"x":1, "y" : -1, "type":"sunflower_1"},
+        {"x":2, "y" : -1, "type":"sunflower_2"},
+        {"x":-2, "y" : 8, "type":"rock_1"}
     ],
 
     "ceiling" : {

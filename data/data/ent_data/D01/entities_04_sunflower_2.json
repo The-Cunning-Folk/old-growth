@@ -1,0 +1,15 @@
+{
+    "name" : "sunflower_2",
+    "components" : {
+        "spriterenderers" :
+        [
+            {
+                "name" : "sprite",
+                "sheet" : "entities_04",
+                "clip" : "sunflower_2",
+                "depth_offset" : 6
+            }
+        ]
+    }
+
+}
