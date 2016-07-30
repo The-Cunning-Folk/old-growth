@@ -1,5 +1,5 @@
 {
-    "name": "butterfly", 
+    "name": "butterfly_sprite", 
     "path": "entities/creatures/butterflies.png",
     "sprites": [
             { 

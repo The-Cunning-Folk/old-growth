@@ -3,7 +3,8 @@
 
     "entities" : [
         {"x" : 12, "y" : -4, "type" : "big_tree"},
-        {"x" : 1, "y" : -4, "type" : "house"}
+        {"x" : 1, "y" : -4, "type" : "house"},
+        {"x" : -5, "y" : 2, "type" : "butterfly"}
 
     ],
 

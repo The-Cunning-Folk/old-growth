@@ -1,0 +1,43 @@
+{
+    "name" : "butterfly",
+    "components" : {
+        "spriterenderers" :
+        [
+            {
+                "name" : "butterfly_sprite",
+                "sheet" : "butterfly_sprite",
+                "clip" : "flap",
+                "paused" : false
+            }
+        ],
+        "collidables" : [
+            {
+                "name" : "main_hitbox",
+                "immovable" : false,
+                "diminutive" : true,
+                "polygon" : [
+                    {"x": -2, "y": -2},
+                    {"x": 2, "y": -2},
+                    {"x": 2, "y": 2},
+                    {"x": -2, "y": -2}
+                ]
+            }
+        ],
+        "rayemitters" : [
+            {
+                "name": "playerseeker",
+                "targets" : [
+                    "player_1"
+                ]
+            }
+        ],
+        "gamelogics" : [
+            {
+                "behaviours" : [
+                    "flowPathingBehaviours"
+                ]
+            }
+        ]
+    }
+
+}
