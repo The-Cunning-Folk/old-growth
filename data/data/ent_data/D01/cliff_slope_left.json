@@ -1,0 +1,20 @@
+{
+    "name" : "cliff_slope_left",
+    "components" : {
+        "collidables" : [
+            {
+                "name" : "main_hitbox",
+                "immovable" : true,
+                "polygon" : [
+                    {"x": -8, "y": -36},
+                    {"x": 8, "y": -52},
+                    {"x": 8, "y": -42},
+                    {"x": -2, "y": 30},
+                    {"x": -8, "y": 30}
+					
+                ]
+            }
+        ]
+    }
+
+}

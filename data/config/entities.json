@@ -11,6 +11,16 @@
         "D01/entities_04_sunflower_1.json",
         "D01/entities_04_sunflower_2.json",
         "D01/entities_05_rock_1.json",
-        "D01/butterfly.json"
+        "D01/butterfly.json",
+		"D01/cliff_1.json",
+		"D01/cliff_2.json",
+		"D01/cliff_4.json",
+		"D01/cliff_5.json",
+		"D01/cliff_6.json",
+		"D01/cliff_7.json",
+		"D01/cliff_slope_left.json",
+		"D01/cliff_slope_right.json",
+		"D01/cliff_3.json"
+		
     ]
 }
