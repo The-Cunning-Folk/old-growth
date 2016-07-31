@@ -1,7 +1,6 @@
 {
   "name":"butterfly_demo",
   "entities":[
-    {"x":32,"y":13,"type":"house"},
 	{"x": 9,"y":3,"type":"big_tree"},
 	{"x": 17, "y": 8, "type":"big_tree"},
 	{"x": 45, "y": 7, "type":"big_tree"},
@@ -41,7 +40,35 @@
 	{"x": 17, "y": 22, "type": "cliff_6"},
 	{"x": 13, "y": 16, "type": "cliff_7"},
 	{"x": 30, "y": 24, "type": "cliff_slope_right"},
-	{"x": 26, "y": 24, "type": "cliff_slope_left"}
+	{"x": 26, "y": 24, "type": "cliff_slope_left"},
+	
+	{"x":32,"y":13,"type":"house"},
+	{"x":39, "y": 25, "type": "cart" },
+	{"x": 44, "y": 32, "type":"big_tree"},
+	{"x": 20, "y": 27, "type":"big_tree"},
+	{"x": 50, "y": 19, "type":"logs"},
+	{"x": 53, "y": 20, "type":"logs"},
+	{"x": 33, "y": 16, "type":"sunflower_1"},
+	{"x": 34, "y": 16, "type":"sunflower_2"},
+	{"x": 40, "y": 17, "type":"trough"},
+	{"x": 8, "y": 6, "type":"rock_1"},
+	{"x": 12, "y": 7, "type":"rock_1"},
+	{"x": 8, "y": 24, "type":"rock_1"},
+	{"x": 13, "y": 4, "type":"sunflower_1"},
+	{"x": 36, "y": 27, "type":"sunflower_2"},
+	{"x": 34, "y": 26, "type":"sunflower_1"},
+	{"x": 34, "y": 9, "type":"well"},
+	
+	{"x": 37, "y": 30, "type":"butterfly"},
+	{"x": 52, "y": 17, "type":"butterfly"},
+	{"x": 51, "y": 16, "type":"butterfly"},
+	{"x": 56, "y": 20, "type":"butterfly"},
+	{"x": 58, "y": 24, "type":"butterfly"},
+	{"x": 10, "y": 7, "type":"butterfly"},
+	{"x": 10, "y": 8, "type":"butterfly"},
+	{"x": 8, "y": 9, "type":"butterfly"},
+	{"x": 8, "y": 7, "type":"butterfly"},
+	{"x": 39, "y": 32, "type":"butterfly"}
   ],
   "ceiling":{
     "default_sheet":"D01_tileset_01",
