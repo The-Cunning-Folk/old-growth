@@ -18,8 +18,9 @@
     "ceiling" : {
         "default_sheet" : "D01_tileset_01",
         "layers" : [
+			null,
             {
-                "map" : []
+                "tiles" : []
             }
         ]
     },
@@ -29,11 +30,12 @@
         "default_sheet" : "D01_tileset_01",
         "layers" : [
             {
-                "default" : 23,
-                "map" : []
+                "default" : 1,
+                "tiles" : []
             },
             {
-                "map" : []
+				"default" : 23,
+                "tiles" : []
             }
 
         ]
