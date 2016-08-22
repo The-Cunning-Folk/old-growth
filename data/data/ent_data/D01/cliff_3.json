@@ -1,0 +1,19 @@
+{
+    "name" : "cliff_3",
+    "components" : {
+        "collidables" : [
+            {
+                "name" : "main_hitbox",
+                "immovable" : true,
+                "polygon" : [
+                    {"x": -8, "y": -76},
+                    {"x": 4, "y": -76},
+                    {"x": 4, "y": 76},
+                    {"x": -8, "y": 76}
+					
+                ]
+            }
+        ]
+    }
+
+}
