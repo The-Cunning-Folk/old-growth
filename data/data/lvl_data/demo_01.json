@@ -73,7 +73,6 @@
   "ceiling":{
     "default_sheet":"D01_tileset_01",
     "layers":[
-      null,
       {
         "name":"tree decor",
         "tiles":[
@@ -5612,10 +5611,6 @@
     "default_tile":19,
     "default_sheet":"D01_tileset_01",
     "layers":[
-      null,
-      null,
-      null,
-      null,
       {
         "name":"cliff",
         "tiles":[
