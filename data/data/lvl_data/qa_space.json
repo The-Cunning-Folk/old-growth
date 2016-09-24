@@ -1,6 +1,9 @@
 {
   "name":"qa_space",
-    "camera": {
+  "player": {
+	"start" : {"x": 5, "y": 5}
+  },
+  "camera": {
      "bounds" : {
      	  "l" : -2048,
           "t" : -2048,
@@ -8,6 +11,9 @@
           "h" : 4096
      }
   },
+  "walls" : [
+	{"l":20,"r":20,"w":100,"h":100}
+  ],
   "entities":[
 	 
   ],
