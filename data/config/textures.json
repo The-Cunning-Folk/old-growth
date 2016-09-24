@@ -11,7 +11,8 @@
         "D01/entities_03.json",
         "D01/entities_04.json",
         "D01/entities_05.json",
-        "D01/tileset_01.json"
+        "D01/tileset_01.json",
+	"D02/tileset_01.json"
 
     ]
 }
