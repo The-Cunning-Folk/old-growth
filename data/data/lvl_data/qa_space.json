@@ -1,0 +1,30 @@
+{
+  "name":"qa_space",
+    "camera": {
+     "bounds" : {
+     	  "l" : -2048,
+          "t" : -2048,
+          "w" : 4096,
+          "h" : 4096
+     }
+  },
+  "entities":[
+	 {"x": 9,"y":3,"type":"big_tree"}
+  ],
+  "ceiling":{
+    "default_sheet":"D01_tileset_01",
+    "layers":[
+    ]
+  },
+  "ground":{
+    "default_sheet":"D01_tileset_01",
+    "layers":[
+    	{
+    		"name":"floor_tiles",
+        "default":19,
+    		"tiles":[
+    		]
+    	}
+    ]
+  }
+}
