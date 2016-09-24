@@ -1,6 +1,8 @@
 {
     "parentdirectory" : "data/lvl_data",
     "levels": [
-	"demo_01.json"
+	"demo_01.json",
+	"demo_02.json",
+	"qa_space.json"
     ]
 }

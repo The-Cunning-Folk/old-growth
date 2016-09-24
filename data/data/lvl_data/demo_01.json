@@ -1,5 +1,15 @@
 {
   "name":"butterfly_demo",
+
+  "camera": {
+     "bounds" : {
+          "l" : 0,
+          "t" : 0,
+          "w" : 960,
+          "h" : 736
+     }
+  },
+  
   "entities":[
 	{"x": 9,"y":3,"type":"big_tree"},
 	{"x": 17, "y": 8, "type":"big_tree"},
