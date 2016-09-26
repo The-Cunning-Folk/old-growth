@@ -1,0 +1,12 @@
+{
+    "name": "D02_entities_01", 
+    "path": "entities/D02/environment/entities_01.png",
+    "sprites": [
+        { 
+            "name": "pot_1",
+            "frames": [
+                {"l": 0, "t": 10, "w": 16, "h": 22}
+            ]
+        }
+    ]
+}

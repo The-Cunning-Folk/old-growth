@@ -1,0 +1,15 @@
+{
+    "name" : "pot_1",
+    "components" : {
+        "spriterenderers" :
+        [
+            {
+                "name" : "sprite",
+                "sheet" : "D02_entities_01",
+                "clip" : "pot_1",
+                "depth_offset" : 0
+            }
+        ]
+    }
+
+}
