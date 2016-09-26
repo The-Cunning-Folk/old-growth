@@ -9,7 +9,7 @@
      }
   },
   "entities":[
-	 
+	 {"x": 4,"y":3,"type":"pot_1"}
   ],
   "ceiling":{
     "default_sheet":"D01_tileset_01",
