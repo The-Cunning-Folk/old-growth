@@ -9,6 +9,18 @@
                 "clip" : "pot_1",
                 "depth_offset" : 0
             }
+        ],
+		"collidables" : [
+            {
+                "name" : "hitbox",
+                "immovable" : false,
+                "polygon" : [
+                    {"x": -5, "y": -5},
+                    {"x": 5, "y": -5},
+                    {"x": 5, "y": 5},
+                    {"x": -5, "y": 5}
+                ]
+            }
         ]
     }
 
