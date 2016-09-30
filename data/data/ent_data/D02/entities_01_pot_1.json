@@ -21,7 +21,14 @@
                     {"x": -5, "y": 5}
                 ]
             }
-        ]
+        ],
+		"rigidbodies" : [
+		    {
+                "name" : "body",
+				"mass" : 5,
+				"friction": 0.001
+            }
+		]
     }
 
 }
