@@ -1,0 +1,37 @@
+{
+    "name" : "pot_shard_1",
+    "components" : {
+        "spriterenderers" :
+        [
+            {
+                "name" : "sprite",
+                "sheet" : "D02_entities_01",
+                "clip" : "pot_shards_1",
+                "depth_offset" : 0,
+				"paused" : true,
+				"frame": "rand%8"
+            }
+        ],
+		"collidables" : [
+            {
+                "name" : "hitbox",
+                "immovable" : false,
+				"diminutive" : true,
+                "polygon" : [
+                    {"x": -2, "y": -2},
+                    {"x": 2, "y": -2},
+                    {"x": 2, "y": 2},
+                    {"x": -2, "y": 2}
+                ]
+            }
+        ],
+		"rigidbodies" : [
+		    {
+                "name" : "body",
+				"mass" : 1,
+				"friction": 0.001
+            }
+		]
+    }
+
+}
