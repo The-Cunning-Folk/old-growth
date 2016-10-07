@@ -26,7 +26,8 @@
 		    {
                 "name" : "body",
 				"mass" : 5,
-				"friction": 0.001
+				"friction": 0.1,
+				"restitution":0.5
             }
 		]
     }
