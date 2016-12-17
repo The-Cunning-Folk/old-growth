@@ -52,7 +52,7 @@
 	{"x": 30, "y": 24, "type": "cliff_slope_right"},
 	{"x": 26, "y": 24, "type": "cliff_slope_left"},
 	
-	{"x":32,"y":13,"type":"house"},
+	{"id":"house_1","x":32,"y":13,"type":"house"},
 	{"x":39, "y": 25, "type": "cart" },
 	{"x": 44, "y": 32, "type":"big_tree"},
 	{"x": 20, "y": 27, "type":"big_tree"},

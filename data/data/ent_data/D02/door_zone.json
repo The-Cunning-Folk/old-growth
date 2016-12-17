@@ -1,0 +1,20 @@
+{
+    "name" : "door_zone",
+    "components" : {
+        "collidables" : [
+            {
+                "name" : "door",
+                "immovable" : true,
+                "solid":false,
+                "polygon" : [
+                    {"x": -16, "y": -20},
+                    {"x": 16, "y": -20},
+                    {"x": 16, "y": 12},
+                    {"x": -16, "y": 12}
+					
+                ]
+            }
+        ]
+    }
+
+}
