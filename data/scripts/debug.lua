@@ -5,7 +5,7 @@ input = get_global_input()
 
 keysdown = input:get_keys_down()
 if(input:key_pressed("test")) then
-	remove_object("house_1")
+	activate_object("house_1")
 end
 
 input:set_key_input("test","1")
