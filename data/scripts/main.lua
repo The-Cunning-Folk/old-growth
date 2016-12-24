@@ -1,10 +1,12 @@
 events = get_global_events()
-input = get_global_input()
-input:set_key_input("test","1")
+
+
 
 for k,ev in pairs(events) do 
 	if(string.match(ev.script,"collision")) then
-		if(string.match(ev.script,"player_1") and string.match(ev.script,"door")) then
+		if(string.match(ev.script,"player_1") 
+			and string.match(ev.script,"door")
+			and not string.match(ev.script,"attack")) then
 			--get player in current level
 			if current_level() == "butterfly_demo" then
 				change_level("qa_space")
@@ -19,5 +21,13 @@ for k,ev in pairs(events) do
 				p1t.position.y = 280
 			end
 		end
+
+	if(string.match(ev.script,"player_1") 
+		and string.match(ev.script,"pot")
+		and string.match(ev.script,"attack")) then
+
+		--pot has been hit with the sword!
+
+	end
 	end
 end

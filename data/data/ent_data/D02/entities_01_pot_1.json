@@ -12,7 +12,7 @@
         ],
 		"collidables" : [
             {
-                "name" : "hitbox",
+                "name" : "pot_hitbox",
                 "immovable" : false,
                 "polygon" : [
                     {"x": -5, "y": -5},
