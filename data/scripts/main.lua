@@ -1,5 +1,6 @@
 events = get_global_events()
-
+input = get_global_input()
+input:set_key_input("test","1")
 
 for k,ev in pairs(events) do 
 	if(string.match(ev.script,"collision")) then
