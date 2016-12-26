@@ -27,6 +27,7 @@ for k,ev in pairs(events) do
 		and string.match(ev.script,"attack")) then
 
 		--pot has been hit with the sword!
+		print(ev.script)
 
 	end
 	end
