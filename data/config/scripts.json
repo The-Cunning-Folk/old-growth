@@ -1,0 +1,6 @@
+{
+    "parentdirectory" : "scripts/behaviours",
+    "scripts": [
+        "pots.lua"
+    ]
+}
