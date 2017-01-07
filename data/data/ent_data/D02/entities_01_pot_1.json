@@ -29,7 +29,18 @@
 				"friction": 0.1,
 				"restitution":0.5
             }
-		]
+		],
+        "gamelogics" : [
+            {
+                "scripts": [
+                    {
+                        "file":"pots.lua",
+                        "table": "Pot"
+                    }
+                ]
+            }
+        ]
+
     }
 
 }
