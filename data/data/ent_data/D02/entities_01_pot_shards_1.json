@@ -9,7 +9,7 @@
                 "clip" : "pot_shards_1",
                 "depth_offset" : 0,
 				"paused" : true,
-				"frame": "rand%8"
+				"frame": "rand%7"
             }
         ],
 		"collidables" : [
@@ -28,7 +28,7 @@
 		"rigidbodies" : [
 		    {
                 "name" : "body",
-				"mass" : 5,
+				"mass" : 1,
 				"friction": 0.001
             }
 		]

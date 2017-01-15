@@ -4,6 +4,7 @@ events = get_global_events()
 
 for k,ev in pairs(events) do 
 	if(string.match(ev.script,"collision")) then
+		--print(ev.script)
 		if(string.match(ev.script,"player_1") 
 			and string.match(ev.script,"door")
 			and not string.match(ev.script,"attack")) then
@@ -27,7 +28,7 @@ for k,ev in pairs(events) do
 		and string.match(ev.script,"attack")) then
 
 		--pot has been hit with the sword!
-		print(ev.script)
+		
 
 	end
 	end
